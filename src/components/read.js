@@ -32,7 +32,6 @@ export class Read extends Component {
     render() {
         return(
             <div>
-                <h1>This is the Read component</h1>
                 <Movies movies={this.state.movies}/>    
             </div>
         );
